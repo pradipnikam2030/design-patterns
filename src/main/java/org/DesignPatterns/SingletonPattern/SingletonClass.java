@@ -10,7 +10,9 @@ public class SingletonClass {
     public static SingletonClass getInstance(){
          if (singletonClass == null){
              synchronized (SingletonClass.class){
-                 singletonClass = new SingletonClass();
+                if (singletonClass == null){
+                    singletonClass = new SingletonClass();
+                }
              }
          }
          return singletonClass;

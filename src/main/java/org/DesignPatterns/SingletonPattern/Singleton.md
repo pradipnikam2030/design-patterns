@@ -146,3 +146,12 @@ Singleton pattern ensures that only one instance of a class exists and provides 
 - Provides **global access**
 - Used for **shared resources**
 - Must handle **thread safety carefully**  
+
+
+  | Type | Lazy | Thread-Safe | Performance |
+  | :--- | :---: | :---: | :--- |
+  | **Eager** | ❌ | ✅ | Fast |
+  | **Lazy (basic)** | ✅ | ❌ | Fast |
+  | **Synchronized** | ✅ | ✅ | Slow |
+  | **Bill Pugh** | ✅ | ✅ | Fast ✅ |
+  | **Enum** | ✅ | ✅ | Best 🔥 |
