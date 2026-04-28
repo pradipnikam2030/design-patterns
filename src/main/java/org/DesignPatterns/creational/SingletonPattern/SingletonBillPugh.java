@@ -1,4 +1,4 @@
-package org.DesignPatterns.SingletonPattern;
+package org.DesignPatterns.creational.SingletonPattern;
 
 public class SingletonBillPugh {
     private SingletonBillPugh (){

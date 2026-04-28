@@ -1,4 +1,4 @@
-package org.DesignPatterns.FactoryMethodPattern;
+package org.DesignPatterns.creational.FactoryMethodPattern;
 
 public class NotificationFactory {
 

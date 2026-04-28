@@ -1,4 +1,4 @@
-package org.DesignPatterns.builder_pattern;
+package org.DesignPatterns.creational.builder_pattern;
 
 public class Car {
     @Override

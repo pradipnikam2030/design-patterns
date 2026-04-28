@@ -1,6 +1,4 @@
-package org.DesignPatterns.builder_pattern;
-
-import org.DesignPatterns.builder_pattern.Car;
+package org.DesignPatterns.creational.builder_pattern;
 
 public class MyClass {
     public static void main(String[] args) {
