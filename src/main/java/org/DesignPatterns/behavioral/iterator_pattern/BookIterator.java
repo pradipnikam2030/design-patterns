@@ -8,13 +8,13 @@ package org.DesignPatterns.behavioral.iterator_pattern;
      String next();
  }
 
-
+ //Step 2: Concrete Iterator
 public class BookIterator implements Iterator{
 
      String[] books;
      int index = 0;
 
-     BookCollection (String[] books){
+     BookIterator(String[] books){
          this.books = books;
 
      }
@@ -28,4 +28,8 @@ public class BookIterator implements Iterator{
     public String next() {
         return books[index++];
     }
+}
+// Aggregate Interface
+interface BookCollection{
+     Iterator createIterator();
 }

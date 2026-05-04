@@ -1,6 +1,4 @@
-package org.DesignPatterns.behavioral;
-
-import org.DesignPatterns.behavioral.command_pattern.Command;
+package org.DesignPatterns.behavioral.command_pattern;
 
 public class RemoteController {
     private static final int numButtons = 4;
